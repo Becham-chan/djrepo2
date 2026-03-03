@@ -9,6 +9,8 @@ on:
     paths:
 
       - "backend/**" # ทำงานเฉพาะเมื่อแก้ backend
+      - ".github/workflows/django.yml"
+
 
   pull_request:
 
@@ -17,6 +19,8 @@ on:
     paths:
 
       - "backend/**"
+      - ".github/workflows/django.yml"
+
 
 
 jobs:
